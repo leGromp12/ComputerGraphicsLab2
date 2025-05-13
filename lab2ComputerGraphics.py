@@ -25,7 +25,6 @@ def draw_star(ax, x, y, size, level, angle=0):
 
 depth = int(input("Введіть глибину: "))
 
-# Підготовка полотна
 fig, ax = plt.subplots()
 fig.set_facecolor('black')
 ax.set_facecolor('black')
